@@ -14,4 +14,11 @@ PARAMETERS: "DOCUMENTDB,roboshop.prod.catalogue.mongo MONGO_URL,roboshop.prod.ca
 schemaInitContainer:
   enabled: true
 
+resources:
+   limits:
+     cpu: 350m
+     memory: 712Mi
+   requests:
+     cpu: 250m
+     memory: 512Mi
 
